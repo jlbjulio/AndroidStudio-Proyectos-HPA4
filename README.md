@@ -47,7 +47,7 @@ Each ZIP folder contains the source code corresponding to an individual workshop
 
 ## Author
 
-This repository was developed as part of the course **Herramientas de Programación 4 (HPA4)** during the 2025 semester by **Julio Lara**, from the **Ingeniería en Sistemas/Tecnología** program at the **Universidad Tecnológica de Panamá (UTP)**.
+This repository was developed as part of the course **Herramientas de Programación 4 (HPA4)** by **Julio Lara**, from the **Ingeniería en Sistemas/Tecnología** program at the **Universidad Tecnológica de Panamá (UTP)**.
 
 ---
 
