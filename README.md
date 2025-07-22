@@ -1,5 +1,3 @@
-# AndroidStudio-Proyects
-
 # Workshops and Projects
 
 This repository contains a collection of workshops, projects, and evaluations. The exercises were implemented using **Android Studio** and focus on mobile application development on Android, using essential components such as `Activities`, `Fragments`, `RecyclerView`, animations, databases, multimedia, and more.
