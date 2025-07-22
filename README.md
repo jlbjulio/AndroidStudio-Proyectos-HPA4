@@ -29,7 +29,6 @@ Cada carpeta ZIP contiene el código fuente correspondiente a un taller o proyec
 | TALLER_27_BASEDATO_CON_ALERTDIALOG_20      | CRUD con base de datos y AlertDialog.                   |
 | PROYECTO_1_ANIMACION_20                    | Proyecto completo basado en animaciones.                |
 | PROYECTO_2_HPA4_GRUPO#2_20                 | Segundo proyecto con funcionalidades más avanzadas.     |
-| PARCIAL_2_RECYCLERVIEW_GRUPO2_20           | Evaluación basada en implementación de RecyclerView.    |
 | INVESTIGACION_2_SEMESTRAL_GRUPO2_20        | Investigación relacionada a desarrollo móvil.           |
 
 ---
