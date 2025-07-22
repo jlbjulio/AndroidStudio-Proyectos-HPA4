@@ -54,3 +54,8 @@ This repository was developed as part of the course **Herramientas de Programaci
 ## 📌 Notes
 
 - Internet connection is required for some dependencies and external libraries.
+
+---
+
+> **Note**: This project was originally developed in Spanish. The README is written in English for documentation and sharing purposes.
+
