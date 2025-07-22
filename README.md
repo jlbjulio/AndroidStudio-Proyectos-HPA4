@@ -1,12 +1,12 @@
 # AndroidStudio-Proyectos-HPA4
 
-# 📱 Talleres y Proyectos - HPA4 (Android Studio)
+# Talleres y Proyectos - HPA4 (Android Studio)
 
 Este repositorio contiene una recopilación de talleres, proyectos y evaluaciones desarrolladas en la materia **Herramientas de Programación 4 (HPA4)**. Los ejercicios fueron implementados utilizando **Android Studio** y están enfocados en el desarrollo de aplicaciones móviles en Android, haciendo uso de componentes esenciales como `Activities`, `Fragments`, `RecyclerView`, animaciones, bases de datos, multimedia y más.
 
 ---
 
-## 📂 Estructura del repositorio
+## Estructura del repositorio
 
 Cada carpeta ZIP contiene el código fuente correspondiente a un taller o proyecto individual. A continuación, una lista general con los temas cubiertos:
 
@@ -28,12 +28,12 @@ Cada carpeta ZIP contiene el código fuente correspondiente a un taller o proyec
 | TALLER_22_TOMAR_FOTO_20                    | Acceso a la cámara para capturar imágenes.              |
 | TALLER_27_BASEDATO_CON_ALERTDIALOG_20      | CRUD con base de datos y AlertDialog.                   |
 | PROYECTO_1_ANIMACION_20                    | Proyecto completo basado en animaciones.                |
-| PROYECTO_2_HPA4_GRUPO#2_20                 | Segundo proyecto con funcionalidades más avanzadas.     |
-| INVESTIGACION_2_SEMESTRAL_GRUPO2_20        | Investigación relacionada a desarrollo móvil.           |
+| PROYECTO_2_HPA4_GRUPO#2_20                 | Segundo proyecto con funcionalidades más avanzadas(Fragments).     |
+| INVESTIGACION_2_SEMESTRAL_GRUPO2_20        | Captura de cámara del celular utilizando IP y visualizar en Android Studio.           |
 
 ---
 
-## 🛠 Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - **Android Studio (Hedgehog/Flamingo)**
 - **Lenguaje Kotlin y/o Java**
@@ -45,13 +45,12 @@ Cada carpeta ZIP contiene el código fuente correspondiente a un taller o proyec
 
 ---
 
-## 🎓 Créditos
+## Autor
 
-Este repositorio fue desarrollado como parte del curso **Herramientas de Programación 4 (HPA4)** durante el semestre 2025, por estudiantes de la carrera de Ingeniería en Sistemas/Tecnología.
+Este repositorio fue desarrollado como parte del curso **Herramientas de Programación 4 (HPA4)** durante el semestre 2025, por **Julio Lara** de la carrera de Ingeniería en Sistemas/Tecnología de la Universidad Tecnológica de Panamá (UTP).
 
 ---
 
 ## 📌 Notas
 
-- Todos los archivos están comprimidos en formato `.zip` y deben ser extraídos antes de abrirse en Android Studio.
 - Requiere conexión a internet para algunas dependencias y librerías externas.
