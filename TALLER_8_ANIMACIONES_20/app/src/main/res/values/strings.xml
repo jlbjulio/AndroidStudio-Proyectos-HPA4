@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TALLER_8_ANIMACIONES_20</string>
+    <string name="tv">ANIMACIONES</string>
+    <string name="btn1">Blink</string>
+    <string name="btn2">Clock</string>
+    <string name="btn3">Fade</string>
+    <string name="btn4">Move</string>
+    <string name="btn5">Slide</string>
+    <string name="btn6">Zoom</string>
+    <string name="btn7">Stop</string>
+
+</resources>

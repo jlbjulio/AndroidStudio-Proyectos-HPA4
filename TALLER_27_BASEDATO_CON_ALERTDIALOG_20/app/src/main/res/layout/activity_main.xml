@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo_principal"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        >
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:text="@string/tv"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#FF0000"
+        android:shadowDx="10.0"
+        android:shadowDy="10.0"
+        android:shadowRadius="5.0"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:helperText="Obligatorio"
+        android:textColorHint="#8B0000"
+        >
+        <EditText
+            android:id="@+id/etNom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/etNom"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:textColor="#FFFFFF"
+            android:typeface="serif">
+
+        </EditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    <EditText
+        android:textColorHint="#8A0000"
+        android:id="@+id/etCor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/etCor"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:textColor="#FFFFFF"
+        android:typeface="serif">
+
+    </EditText>
+
+    <EditText
+        android:textColorHint="#890000"
+        android:id="@+id/etCon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/etCon"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:textColor="#FFFFFF"
+        android:typeface="serif"
+        >
+
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+        <Button
+            android:id="@+id/btnInse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnInse"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:textColor="#FFFFFF"
+            android:shadowColor="@color/black"
+            android:shadowDx="10.0"
+            android:shadowDy="10.0"
+            android:shadowRadius="5.0"
+            android:backgroundTint="#890000"
+            >
+
+        </Button>
+        <Button
+            android:id="@+id/btnModi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnModi"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:textColor="#FFFFFF"
+            android:shadowColor="@color/black"
+            android:shadowDx="10.0"
+            android:shadowDy="10.0"
+            android:shadowRadius="5.0"
+            android:backgroundTint="#890000"
+            >
+
+        </Button>
+        <Button
+            android:id="@+id/btnElim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnElim"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:textColor="#FFFFFF"
+            android:shadowColor="@color/black"
+            android:shadowDx="10.0"
+            android:shadowDy="10.0"
+            android:shadowRadius="5.0"
+            android:backgroundTint="#890000"
+            >
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnActu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnActu"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:textColor="#FFFFFF"
+            android:shadowColor="@color/black"
+            android:shadowDx="10.0"
+            android:shadowDy="10.0"
+            android:shadowRadius="5.0"
+            android:backgroundTint="#890000"
+            >
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnLimp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnLimpiar"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:textColor="#FFFFFF"
+            android:shadowColor="@color/black"
+            android:shadowDx="10.0"
+            android:shadowDy="10.0"
+            android:shadowRadius="5.0"
+            android:backgroundTint="#890000"
+            >
+
+        </Button>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TALLER_16_FRAGMENTS_IMAGENES</string>
+    <string name="btn1">Ima_1</string>
+    <string name="btn2">Ima_2</string>
+    <string name="btn3">Ima_3</string>
+    <string name="btn4">Ima_4</string>
+    <string name="btn5">Ima_5</string>
+    <string name="btn6">Ima_6</string>
+    <string name="tv1">BIENVENIDO FRAGMENTS</string>
+    <string name="tv2">Fragment_Imagen_1</string>
+    <string name="tv3">Fragment_Imagen_2</string>
+    <string name="tv4">Fragment_Imagen_3</string>
+    <string name="tv5">Fragment_Imagen_4</string>
+    <string name="tv6">Fragment_Imagen_5</string>
+    <string name="tv7">Fragment_Imagen_6</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

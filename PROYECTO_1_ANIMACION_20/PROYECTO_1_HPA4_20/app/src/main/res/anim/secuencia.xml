@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true"
+    android:interpolator="@android:anim/linear_interpolator"
+    android:shareInterpolator="true">
+
+    <!-- Animación de rotación -->
+    <rotate
+        android:duration="4000"
+        android:fromDegrees="0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toDegrees="360"
+        android:repeatCount="infinite"
+        android:repeatMode="restart" />
+
+    <!-- Animación de blinkeo -->
+    <alpha
+        android:fromAlpha="0.7"
+        android:toAlpha="1.0"
+        android:interpolator="@android:anim/accelerate_interpolator"
+        android:duration="1500"
+        android:repeatMode="reverse"
+        android:repeatCount="infinite" >
+
+    </alpha>
+
+    <!-- Animación de movimiento -->
+    <set>
+
+        <!-- Paso 1: Diagonal arriba derecha -->
+        <translate
+            android:startOffset="0"
+            android:duration="500"
+            android:fromXDelta="0"
+            android:fromYDelta="0"
+            android:toXDelta="120dp"
+            android:toYDelta="-150dp" />
+
+        <!-- Paso 2: Izquierda -->
+        <translate
+            android:startOffset="500"
+            android:duration="500"
+            android:fromXDelta="120dp"
+            android:fromYDelta="-150dp"
+            android:toXDelta="-120dp"
+            android:toYDelta="-150dp" />
+
+        <!-- Paso 3: Abajo izquierda -->
+        <translate
+            android:startOffset="1000"
+            android:duration="500"
+            android:fromXDelta="-120dp"
+            android:fromYDelta="-150dp"
+            android:toXDelta="-120dp"
+            android:toYDelta="150dp" />
+
+        <!-- Paso 4: Abajo derecha -->
+        <translate
+            android:startOffset="1500"
+            android:duration="500"
+            android:fromXDelta="-120dp"
+            android:fromYDelta="150dp"
+            android:toXDelta="120dp"
+            android:toYDelta="150dp" />
+
+        <!-- Paso 5: Diagonal de vuelta al origen -->
+        <translate
+            android:startOffset="2000"
+            android:duration="500"
+            android:fromXDelta="120dp"
+            android:fromYDelta="150dp"
+            android:toXDelta="0"
+            android:toYDelta="0" />
+
+        <!-- Animación de movimiento verticales e horizontales -->
+
+        <!-- Paso 6: Arriba  -->
+        <translate
+            android:startOffset="2500"
+            android:duration="400"
+            android:fromXDelta="0"
+            android:fromYDelta="0"
+            android:toXDelta="0"
+            android:toYDelta="-120dp" />
+
+        <!-- Paso 7: Regreso al origen desde arriba -->
+        <translate
+            android:startOffset="2900"
+            android:duration="400"
+            android:fromXDelta="0"
+            android:fromYDelta="-120dp"
+            android:toXDelta="0"
+            android:toYDelta="0" />
+
+        <!-- Paso 8: Abajo -->
+        <translate
+            android:startOffset="3300"
+            android:duration="400"
+            android:fromXDelta="0"
+            android:fromYDelta="0"
+            android:toXDelta="0"
+            android:toYDelta="150dp" />
+
+        <!-- Paso 9: Regreso al origen desde abajo -->
+        <translate
+            android:startOffset="3700"
+            android:duration="400"
+            android:fromXDelta="0"
+            android:fromYDelta="150dp"
+            android:toXDelta="0"
+            android:toYDelta="0" />
+
+        <!-- Paso 10: Derecha -->
+        <translate
+            android:startOffset="4100"
+            android:duration="400"
+            android:fromXDelta="0"
+            android:fromYDelta="0"
+            android:toXDelta="120dp"
+            android:toYDelta="0" />
+
+        <!-- Paso 11: Regreso al origen desde derecha -->
+        <translate
+            android:startOffset="4500"
+            android:duration="400"
+            android:fromXDelta="120dp"
+            android:fromYDelta="0"
+            android:toXDelta="0"
+            android:toYDelta="0" />
+
+        <!-- Paso 12: Izquierda -->
+        <translate
+            android:startOffset="4900"
+            android:duration="400"
+            android:fromXDelta="0"
+            android:fromYDelta="0"
+            android:toXDelta="-120dp"
+            android:toYDelta="0" />
+
+        <!-- Paso 13: Regreso al origen desde izquierda -->
+        <translate
+            android:startOffset="5300"
+            android:duration="400"
+            android:fromXDelta="-120dp"
+            android:fromYDelta="0"
+            android:toXDelta="0"
+            android:toYDelta="0" />
+
+        <!-- Paso 14: Diagonal Abajo Derecha -->
+        <translate
+            android:startOffset="5700"
+            android:duration="400"
+            android:fromXDelta="0"
+            android:fromYDelta="0"
+            android:toXDelta="120dp"
+            android:toYDelta="150dp" />
+        <!-- Paso 15: Regreso al origen desde Abajo Derecha -->
+        <translate
+            android:startOffset="6100"
+            android:duration="400"
+            android:fromXDelta="120dp"
+            android:fromYDelta="150dp"
+            android:toXDelta="0"
+            android:toYDelta="0" />
+        <!-- Paso 16: Diagonal Abajo Izquierda -->
+        <translate
+            android:startOffset="6500"
+            android:duration="400"
+            android:fromXDelta="0"
+            android:fromYDelta="0"
+            android:toXDelta="-120dp"
+            android:toYDelta="150dp" />
+        <!-- Paso 17: Regreso al origen desde Abajo Izquierda -->
+        <translate
+            android:startOffset="6900"
+            android:duration="400"
+            android:fromXDelta="-120dp"
+            android:fromYDelta="150dp"
+            android:toXDelta="0"
+            android:toYDelta="0" />
+        <!-- Paso 18: Diagonal Arriba Izquierda -->
+        <translate
+            android:startOffset="7300"
+            android:duration="400"
+            android:fromXDelta="0"
+            android:fromYDelta="0"
+            android:toXDelta="-120dp"
+            android:toYDelta="-150dp" />
+        <!-- Paso 19: Regreso al origen desde Arriba Izquierda -->
+        <translate
+            android:startOffset="7700"
+            android:duration="400"
+            android:fromXDelta="-120dp"
+            android:fromYDelta="-150dp"
+            android:toXDelta="0"
+            android:toYDelta="0" />
+        <!-- Paso 20: Diagonal Arriba Derecha -->
+        <translate
+            android:startOffset="8100"
+            android:duration="400"
+            android:fromXDelta="0"
+            android:fromYDelta="0"
+            android:toXDelta="120dp"
+            android:toYDelta="-150dp" />
+        <!-- Paso 21: Regreso al origen desde Arriba Derecha -->
+        <translate
+            android:startOffset="8500"
+            android:duration="400"
+            android:fromXDelta="120dp"
+            android:fromYDelta="-150dp"
+            android:toXDelta="0"
+            android:toYDelta="0" />
+
+        <!-- Paso 22: Diagonal Abajo Izquierda -->
+        <translate
+            android:startOffset="8900"
+            android:duration="400"
+            android:fromXDelta="0"
+            android:fromYDelta="0"
+            android:toXDelta="-120dp"
+            android:toYDelta="150dp" />
+        <!-- Paso 23: Regreso al origen desde Abajo Izquierda -->
+        <translate
+            android:startOffset="9300"
+            android:duration="400"
+            android:fromXDelta="-120dp"
+            android:fromYDelta="150dp"
+            android:toXDelta="0"
+            android:toYDelta="0" />
+        <!-- Paso 24: Diagonal Abajo Derecha -->
+        <translate
+            android:startOffset="9700"
+            android:duration="400"
+            android:fromXDelta="0"
+            android:fromYDelta="0"
+            android:toXDelta="120dp"
+            android:toYDelta="150dp" />
+        <!-- Paso 25: Regreso al origen desde Abajo Derecha -->
+        <translate
+            android:startOffset="10100"
+            android:duration="400"
+            android:fromXDelta="120dp"
+            android:fromYDelta="150dp"
+            android:toXDelta="0"
+            android:toYDelta="0" />
+        <!-- Paso 26: Diagonal Arriba Derecha -->
+        <translate
+            android:startOffset="10500"
+            android:duration="400"
+            android:fromXDelta="0"
+            android:fromYDelta="0"
+            android:toXDelta="120dp"
+            android:toYDelta="-150dp" />
+        <!-- Paso 27: Regreso al origen desde Arriba Derecha -->
+        <translate
+            android:startOffset="10900"
+            android:duration="400"
+            android:fromXDelta="120dp"
+            android:fromYDelta="-150dp"
+            android:toXDelta="0"
+            android:toYDelta="0" />
+        <!-- Paso 28: Diagonal Arriba Izquierda -->
+        <translate
+            android:startOffset="11300"
+            android:duration="400"
+            android:fromXDelta="0"
+            android:fromYDelta="0"
+            android:toXDelta="-120dp"
+            android:toYDelta="-150dp" />
+        <!-- Paso 29: Regreso al origen desde Arriba Izquierda -->
+        <translate
+            android:startOffset="11700"
+            android:duration="400"
+            android:fromXDelta="-120dp"
+            android:fromYDelta="-150dp"
+            android:toXDelta="0"
+            android:toYDelta="0" />
+
+
+
+    </set>
+</set>

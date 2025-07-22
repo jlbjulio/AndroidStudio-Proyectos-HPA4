@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">PROYECTO_1_HPA4_20</string>
+    <string name="tv">Maxwell</string>
+    <string name="btn1">Iniciar</string>
+    <string name="btn2">Detener</string>
+</resources>

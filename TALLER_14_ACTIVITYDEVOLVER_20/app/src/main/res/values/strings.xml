@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TALLER_14_ACTIVITYDEVOLVER_20</string>
+    <string name="tv1">Buscar Dato</string>
+    <string name="tv2">Activity_Main</string>
+    <string name="btn1">Buscar Color</string>
+    <string name="tv3">Devolver Dato</string>
+    <string name="btn2">Ok</string>
+    <string name="tv4">Activity_Second</string>
+    <string name="rb1">Rojo</string>
+    <string name="rb2">Azul</string>
+    <string name="rb3">Verde</string>
+    <string name="rb4">Chocolate</string>
+    <string name="rb5">Amarillo</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TALLER_17_FRAGMENTS_CONTACTO_CORREO_MENSAJE_20</string>
+    <string name="tv1">Contactos</string>
+    <string name="tv2">Correos</string>
+    <string name="tv3">Mensajes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

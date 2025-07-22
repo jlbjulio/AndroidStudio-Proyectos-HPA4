@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TALLER_13_ACTIVITY_ENVIAR_20</string>
+    <string name="tv1">ACTIVITY_ENVIAR</string>
+    <string name="tv2">Activity_Main</string>
+    <string name="et1">Nombre</string>
+    <string name="et2">Correo</string>
+    <string name="tv3">Datos Recibidos</string>
+    <string name="tv6">Activity_Second:</string>
+    <string name="btn1">Enviar</string>
+    <string name="btn2">Regresar</string>
+
+</resources>

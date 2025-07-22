@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">TALLER_19_RECYCLERVIEW_CLUBES_20</string>
+    <string name="tv1">Titulo</string>
+    <string name="tv2">Descripción</string>
+
+    <string-array name="Clubes">
+
+        <item>Arsenal</item>
+        <item>Barcelona</item>
+        <item>Bayern Múnich</item>
+        <item>Chelsea</item>
+        <item>Liverpool</item>
+        <item>Manchester City</item>
+        <item>Manchester United</item>
+        <item>PSG</item>
+        <item>Real Madrid</item>
+        <item>Tottenham</item>
+
+    </string-array>
+
+    <string-array name="Costo">
+        <item>Inglaterra\nValor de marca 357 millones\nValor de equipo 2.2 mil millones</item>
+        <item>España\nValor de marca 919 millones\nValor de equipo 5.5 mil millones</item>
+        <item>Alemania\nValor de marca 908 mil millones\nValor de equipo 4.8 mil millones</item>
+        <item>Inglaterra\nValor de marca 480 mil millones\nValor de equipo 3.1 mil millones</item>
+        <item>Inglaterra\nValor de marca 840 mil millones\nValor de equipo 5.2 mil millones</item>
+        <item>Inglaterra\nValor de marca 877 mil millones\nValor de equipo 4.9 mil millones</item>
+        <item>Inglaterra\nValor de marca 1,003 mil millones\nValor de equipo 6 mil millones</item>
+        <item>Francia\nValor de marca 791 mil millones\nValor de equipo 4.2 mil millones</item>
+        <item>España\nValor de marca 1,014 mil millones\nValor de equipo 6.07 mil millones</item>
+        <item>Inglaterra\nValor de marca 454 mil millones\nValor de equipo 2.8 mil millones</item>
+
+
+    </string-array>
+</resources>

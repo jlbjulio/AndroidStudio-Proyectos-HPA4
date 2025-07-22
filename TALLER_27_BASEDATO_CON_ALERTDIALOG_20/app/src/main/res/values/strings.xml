@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TALLER_27_BASEDATO_CON_ALERTDIALOG</string>
+    <string name="tv">Registro Estudiante</string>
+    <string name="etNom">Nombre</string>
+    <string name="etCor">Correo</string>
+    <string name="etCon">Contraseña</string>
+    <string name="btnInse">Insertar</string>
+    <string name="btnModi">Modificar</string>
+    <string name="btnElim">Eliminar</string>
+    <string name="btnActu">Actualizar</string>
+    <string name="btnLimpiar">Limpiar</string>
+
+</resources>

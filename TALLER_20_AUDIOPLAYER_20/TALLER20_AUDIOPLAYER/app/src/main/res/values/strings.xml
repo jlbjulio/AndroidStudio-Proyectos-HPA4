@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TALLER20_AUDIOPLAYER</string>
+    <string name="tv">AudiPlayer</string>
+    <string name="tiemcan">00.00</string>
+    <string name="durcan">00.00</string>
+    <string name="btnplay">Play</string>
+    <string name="btnpause">Pause</string>
+    <string name="btnstop">Stop</string>
+</resources>

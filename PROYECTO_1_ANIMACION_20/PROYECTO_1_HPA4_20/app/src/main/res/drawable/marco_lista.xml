@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/fondo_marco1"
+        android:duration="5000"
+        >
+    </item>
+
+    <item
+        android:drawable="@drawable/fondo_marco2"
+        android:duration="5000"
+        >
+    </item>
+
+    <item
+        android:drawable="@drawable/fondo_marco3"
+        android:duration="5000"
+        >
+    </item>
+
+    <item
+        android:drawable="@drawable/fondo_marco4"
+        android:duration="5000"
+        >
+    </item>
+
+
+
+</animation-list>

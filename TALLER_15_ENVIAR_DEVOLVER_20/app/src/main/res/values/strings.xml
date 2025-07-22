@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TALLER_15_ENVIAR_DEVOLVER_20</string>
+    <string name="tv1">Enviar Datos</string>
+    <string name="tv3">Activity_Main</string>
+    <string name="btn1">Enviar</string>
+    <string name="tv4">Datos Recibidos</string>
+    <string name="btn2">Limpiar</string>
+    <string name="tv6">Activity_Second</string>
+    <string name="et1">Primer Numero</string>
+    <string name="et2">Segundo Numero</string>
+    <string name="btn3">Sumar</string>
+    <string name="btn4">Restar</string>
+</resources>

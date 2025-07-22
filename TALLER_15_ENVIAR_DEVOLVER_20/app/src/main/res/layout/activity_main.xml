@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_main"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tv1"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="10" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv1"
+        android:hint="@string/et1"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textColor="#000000"
+        >
+
+    </EditText>
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/et1"
+        android:hint="@string/et2"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/et2"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="10" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@id/tv2"
+        android:text="@string/btn1"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="10"
+        android:background="@drawable/fondo_btn1_btn2"
+        app:backgroundTint="@null"
+        />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:text="@string/btn2"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textColor="#FFFFFF"
+        android:shadowColor="@color/black"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="10"
+        android:background="@drawable/fondo_btn1_btn2"
+        app:backgroundTint="@null"
+        android:layout_below="@id/tv2"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:text="@string/tv3"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="10"
+        android:layout_below="@id/btn1"
+
+        />
+
+
+
+
+
+</RelativeLayout>

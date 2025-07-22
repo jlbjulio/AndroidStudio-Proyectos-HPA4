@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TALLER_5_FONDO_COLOR_20</string>
+    <string name="tv">FONDO COLOR</string>
+    <string name="btn1">Red</string>
+    <string name="btn2">Blue</string>
+    <string name="btn3">Green</string>
+</resources>

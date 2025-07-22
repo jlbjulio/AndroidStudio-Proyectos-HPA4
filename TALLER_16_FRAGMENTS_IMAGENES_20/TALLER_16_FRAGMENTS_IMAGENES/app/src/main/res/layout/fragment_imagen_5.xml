@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imagen_5"
+    tools:context=".Imagen_5Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/tv6"
+        android:layout_marginTop="500dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#E318E9"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="5"
+
+        />
+
+
+</FrameLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_second"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tv3"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textColor="#FFFFFF"
+        android:shadowColor="@color/black"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="10"
+        />
+
+    <RadioGroup
+        android:id="@+id/colores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv3"
+        >
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rb1"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:textColor="#FF0000"
+            android:shadowColor="@color/black"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="10" />
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rb2"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:textColor="#2196F3"
+            android:shadowColor="@color/black"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="10" />
+        <RadioButton
+            android:id="@+id/rb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rb3"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:textColor="#4CAF50"
+            android:shadowColor="@color/black"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="10" />
+        <RadioButton
+            android:id="@+id/rb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rb4"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:textColor="#936445"
+            android:shadowColor="@color/black"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="10" />
+        <RadioButton
+            android:id="@+id/rb5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rb5"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:textColor="#FFEB3B"
+            android:shadowColor="@color/black"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="10" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btn2"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textColor="#FFFFFF"
+        android:shadowColor="@color/black"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="10"
+        android:background="@drawable/fondo_btn1_btn2"
+        app:backgroundTint="@null"
+        android:layout_below="@id/colores"
+        >
+
+    </Button>
+
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:text="@string/tv4"
+        android:textColor="#FFFFFF"
+        android:shadowColor="@color/black"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="10"
+        android:layout_below="@id/btn2"
+        />
+</RelativeLayout>
