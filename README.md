@@ -1,6 +1,6 @@
 # AndroidStudio-Proyectos-HPA4
 
-# 📱 Talleres y Proyectos - HPA4 (Android Studio)
+# Talleres y Proyectos - HPA4 (Android Studio)
 
 Este repositorio contiene una recopilación de talleres, proyectos y evaluaciones desarrolladas en la materia **Herramientas de Programación 4 (HPA4)**. Los ejercicios fueron implementados utilizando **Android Studio** y están enfocados en el desarrollo de aplicaciones móviles en Android, haciendo uso de componentes esenciales como `Activities`, `Fragments`, `RecyclerView`, animaciones, bases de datos, multimedia y más.
 
