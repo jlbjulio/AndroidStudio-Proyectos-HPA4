@@ -1,8 +1,8 @@
-# AndroidStudio-Proyectos-HPA4
+# AndroidStudio-Proyects
 
-# Workshops and Projects - HPA4 (Android Studio)
+# Workshops and Projects
 
-This repository contains a collection of workshops, projects, and evaluations developed for the course **Herramientas de Programación 4 (HPA4)**. The exercises were implemented using **Android Studio** and focus on mobile application development on Android, using essential components such as `Activities`, `Fragments`, `RecyclerView`, animations, databases, multimedia, and more.
+This repository contains a collection of workshops, projects, and evaluations. The exercises were implemented using **Android Studio** and focus on mobile application development on Android, using essential components such as `Activities`, `Fragments`, `RecyclerView`, animations, databases, multimedia, and more.
 
 ---
 
