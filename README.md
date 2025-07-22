@@ -47,11 +47,10 @@ Cada carpeta ZIP contiene el código fuente correspondiente a un taller o proyec
 
 ## 🎓 Créditos
 
-Este repositorio fue desarrollado como parte del curso **Herramientas de Programación 4 (HPA4)** durante el semestre 2025, por estudiantes de la carrera de Ingeniería en Sistemas/Tecnología.
+Este repositorio fue desarrollado como parte del curso **Herramientas de Programación 4 (HPA4)** durante el semestre 2025, por **Julio Lara** de la carrera de Ingeniería en Sistemas/Tecnología.
 
 ---
 
 ## 📌 Notas
 
-- Todos los archivos están comprimidos en formato `.zip` y deben ser extraídos antes de abrirse en Android Studio.
 - Requiere conexión a internet para algunas dependencias y librerías externas.
