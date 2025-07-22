@@ -6,7 +6,7 @@ Este repositorio contiene una recopilación de talleres, proyectos y evaluacione
 
 ---
 
-## 📂 Estructura del repositorio
+## Estructura del repositorio
 
 Cada carpeta ZIP contiene el código fuente correspondiente a un taller o proyecto individual. A continuación, una lista general con los temas cubiertos:
 
@@ -33,7 +33,7 @@ Cada carpeta ZIP contiene el código fuente correspondiente a un taller o proyec
 
 ---
 
-## 🛠 Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - **Android Studio (Hedgehog/Flamingo)**
 - **Lenguaje Kotlin y/o Java**
@@ -45,9 +45,9 @@ Cada carpeta ZIP contiene el código fuente correspondiente a un taller o proyec
 
 ---
 
-## 🎓 Créditos
+## Autor
 
-Este repositorio fue desarrollado como parte del curso **Herramientas de Programación 4 (HPA4)** durante el semestre 2025, por **Julio Lara** de la carrera de Ingeniería en Sistemas/Tecnología.
+Este repositorio fue desarrollado como parte del curso **Herramientas de Programación 4 (HPA4)** durante el semestre 2025, por **Julio Lara** de la carrera de Ingeniería en Sistemas/Tecnología de la Universidad Tecnológica de Panamá (UTP).
 
 ---
 
